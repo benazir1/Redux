@@ -9,7 +9,7 @@ import Product from './Product';
   
         <div className='b1 mt-5'> 
         <div> 
-        {amount > 1 ? (<>
+        {amount >= 1 ? (<>
             <div>
          
        {products.map((item,i)=>
